@@ -1,0 +1,13 @@
+#cloud-config
+# vim:syntax=yaml
+
+users:
+  - default
+
+chpasswd:
+  list: |
+    ec2-user:password
+
+# ssh_authorized_keys:
+#   - <enter your public key here
+
